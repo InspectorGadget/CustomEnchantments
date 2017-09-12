@@ -58,7 +58,7 @@ class Loader extends PluginBase  Listener {
                 if (isset($args[0])) {
 
                     switch ($args[0]) {
-                        
+
                         case "set":
 
                             if (!in_array($sender->getName(), $this->whitelist)) {

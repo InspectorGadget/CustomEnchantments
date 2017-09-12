@@ -10,15 +10,16 @@ namespace RTG\CE;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
+use RTG\CE\Commands\InfoCommand;
 
 class Loader extends PluginBase implements Listener {
 
     public function onEnable() {
-
+        $this->getServer()->getCommandMap()->register("ce", new InfoCommand($this));
     }
 
     public function onDisable() {
-        
+
     }
 
 }

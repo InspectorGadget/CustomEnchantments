@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba590c6-fc3b-4dc7-b51c-a4a4bfa4d04b" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RTG/Commands/InfoCommand/InfoCommand.php" afterPath="$PROJECT_DIR$/src/RTG/Commands/InfoCommand/Commands.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RTG/CE/Loader.php" afterPath="$PROJECT_DIR$/src/RTG/CE/Loader.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Loader.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Loader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RTG/CE/Loader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="84" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding>
                 <element signature="e#107#140#0#PHP" expanded="true" />
               </folding>
@@ -25,12 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfoCommand.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RTG/Commands/InfoCommand/InfoCommand.php">
+      <file leaf-file-name="Commands.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RTG/Commands/InfoCommand/Commands.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="588">
+              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="e#116#147#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/RTG/Commands/InfoCommand/.php" />
         <option value="$PROJECT_DIR$/src/RTG/CE/Loader.php" />
+        <option value="$PROJECT_DIR$/src/RTG/Commands/InfoCommand/InfoCommand.php" />
+        <option value="$PROJECT_DIR$/src/RTG/Commands/InfoCommand/Commands.php" />
       </list>
     </option>
   </component>
@@ -200,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505030453681</updated>
       <workItem from="1505030456643" duration="414000" />
-      <workItem from="1505221105289" duration="1105000" />
+      <workItem from="1505221105289" duration="1992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1519000" />
+    <option name="totallyTimeSpent" value="2406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
@@ -257,20 +263,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTG/Commands/InfoCommand/InfoCommand.php">
+    <entry file="file://$PROJECT_DIR$/src/RTG/CE/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <element signature="e#107#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RTG/CE/Loader.php">
+    <entry file="file://$PROJECT_DIR$/src/RTG/Commands/InfoCommand/Commands.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="84" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        <state relative-caret-position="588">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
-            <element signature="e#107#140#0#PHP" expanded="true" />
+            <element signature="e#116#147#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

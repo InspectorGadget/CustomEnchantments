@@ -17,7 +17,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\tile\Sign;
 
-class Loader extends PluginBase  Listener {
+class Loader extends PluginBase implements Listener {
 
     public $whitelist = array("InspectorGadget");
 
@@ -41,7 +41,7 @@ class Loader extends PluginBase  Listener {
 
                         if ($tile instanceof Sign) {
 
-                            $tile->setText("Hey", "Lmao", "Test", "Yo");
+                            // $tile->setText();
 
                         }
 
@@ -64,6 +64,8 @@ class Loader extends PluginBase  Listener {
                             if (!in_array($sender->getName(), $this->whitelist)) {
                                 array_push($this->whitelist, $sender->getName());
                                 $this->whitelist = $this->whitelist;
+                            } else {
+                                $sender->sendMessage("Working");
                             }
 
                             return true;

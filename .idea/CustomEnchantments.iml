@@ -17,16 +17,17 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/../PocketMine-MP/plugins/DevTools/PocketMine-MP_1.7dev.phar/" />
-          <root url="phar://$MODULE_DIR$/../PocketMine-MP/plugins/DevTools_v1.12.1.phar/" />
           <root url="phar://$MODULE_DIR$/../PocketMine-MP/bin/php/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../PocketMine-MP/bin/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../PocketMine-MP/plugins/DevTools_MCPE_1.2.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/../PocketMine-MP/plugins/DevTools/PocketMine-MP_1.7dev.phar/" />
-          <root url="phar://$MODULE_DIR$/../PocketMine-MP/plugins/DevTools_v1.12.1.phar/" />
           <root url="phar://$MODULE_DIR$/../PocketMine-MP/bin/php/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../PocketMine-MP/bin/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../PocketMine-MP/plugins/DevTools_MCPE_1.2.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="TestStuffs" />
   </component>
 </module>

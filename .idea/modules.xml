@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CustomEnchantments.iml" filepath="$PROJECT_DIR$/.idea/CustomEnchantments.iml" />
+      <module fileurl="file://$USER_HOME$/PhpstormProjects/TestStuffs/.idea/TestStuffs.iml" filepath="$USER_HOME$/PhpstormProjects/TestStuffs/.idea/TestStuffs.iml" />
     </modules>
   </component>
 </project>
